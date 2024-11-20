@@ -1,0 +1,28 @@
+html {
+    background-color: #ff006a;
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+    
+
+h2{
+    color: #fcfcff;
+}
+
+button{
+    border: 3px #fd9bc4 solid; 
+    color: #ff006a;
+    height: 23px;
+    width: 90px;
+    cursor: pointer;
+    
+    
+}
+input{
+    border: 3px #ffadcf solid;
+    color: #ff006a;
+    height: 23px;
+    width: 220px;
+    cursor: pointer;
+
+}

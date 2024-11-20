@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> DADOS DO FORMULARIO</h2>
+    <div id="dados"></div>
+
+
+    <script>
+        const ingresso = sessionStorage.getItemO('ingresso');
+        const idade = sessionStorage.getItemO('idade');
+
+
+        if (ingresso &&& idade) {
+            document.getElementById('dados').innerHTML =
+            <p><strong>Ingresso:</strong>$(ingresso)</p>
+            <p><strong>Ingresso:</strong>$(idade)</p>
+            ;
+        }
+    </script>
+    
+</body>
+</html>
