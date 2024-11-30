@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="fran.css">
+
+    <title>Empresa</title>
+</head>
+<body>
+    <h1>Baratão do Óculos</h1>
+
+<fieldset>
+    <h3>Sobre</h3>
+    <p>A empresa de que fornece preço baixo, qualidade e segurança para sua visãoa a mais de 100 anos no mercado</p>
+</fieldset>
+<h3> Produtos</h3>
+<fieldset>
+  <br>
+    <li>Óculos</li>
+    <li>Lente de contato</li>
+    <li>Consultas</li>
+   <p> <button>Saiba mais</button></p>
+</fieldset>
+</body>
+</html>
