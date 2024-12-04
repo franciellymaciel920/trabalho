@@ -1,20 +1,41 @@
 h1{
     
     font-size: 500%;
-    color: rgb(218, 28, 100);
+    color: rgb(223, 15, 0);
     
 }
-html{
+body{
     text-align: center;
-    background-color: rgb(255, 209, 234);
-    background-image: url(https://img.freepik.com/fotos-premium/renderizacao-3d-de-uma-boneca-barbie-com-vestido-rosa-e-oculos-de-sol_768733-2816.jpg?w=740);
+   
     background-repeat: no-repeat;
+    background-image: url(https://images.virgula.me/2012/02/05/308088-300x235.jpg);
     background-size: cover;
+    filter: opacity(80%); 
+
 }
-h3{
-    color: rgb(220, 20, 60);
+header{
+    background-color: rgb(190, 15, 59); 
+}
+h1{
+    
+    color: rgb(255, 255, 255);
 }
 button{
-    background-color: rgb(241, 15, 83);
-    border: 100%;
+    background-color: rgb(248, 14, 73);
+    border: 12%;
+    border-radius: 15px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+fieldset{
+    border-radius: 20px;
+    border-color: rgb(238, 44, 76);
+    border-width: 10px;
+    max-width: 650px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.5;
+ 
 }
