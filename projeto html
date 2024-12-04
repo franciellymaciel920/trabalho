@@ -4,16 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="fran.css">
+    <link rel="stylesheet" type="text/css" href="projeto.css">
 
     <title>Empresa</title>
 </head>
 <body>
-    <h1>Baratão do Óculos</h1>
+    <header>
+        <h1>Baratão do Óculos</h1>
+        <button>Aumentar Fonte</button>  <button>Diminuir Fonte</button>
+        <br>
+    
+    </header>
+   
+
 
 <fieldset>
     <h3>Sobre</h3>
-    <p>A empresa de que fornece preço baixo, qualidade e segurança para sua visãoa a mais de 100 anos no mercado</p>
+    <p>A empresa que fornece preço baixo, qualidade e segurança para sua visãoa a mais de 100 anos no mercado</p>
 </fieldset>
 <h3> Produtos</h3>
 <fieldset>
@@ -23,5 +30,10 @@
     <li>Consultas</li>
    <p> <button>Saiba mais</button></p>
 </fieldset>
+<br>
+<footer>&COPY;2024 BARATÃO DO ÓCULOS. Todos os direitos reservados.<br><br>
+    <a href="https://pt-br.facebook.com/login/device-based/regular/login/">facebook </a>
+    <a href="https://www.instagram.com/accounts/login/">instagram </a>
+</footer>
 </body>
 </html>
