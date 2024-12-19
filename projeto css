@@ -6,9 +6,9 @@ h1{
 }
 body{
     text-align: center;
-   
+    color: rgb(0, 0, 0);
     background-repeat: no-repeat;
-    background-image: url(https://images.virgula.me/2012/02/05/308088-300x235.jpg);
+    background-image: url(https://lenscope.com.br/blog/wp-content/uploads/2022/05/Modelo-de-armacao-de-oculos_-quais-sao-os-principais-modelos-e-onde-comprar-1024x682.png);
     background-size: cover;
     filter: opacity(80%); 
 
@@ -22,8 +22,9 @@ h1{
 }
 button{
     background-color: rgb(248, 14, 73);
-    border: 12%;
-    border-radius: 15px;
+    border: 30%;
+    border-radius: 50px;
+    
 }
 footer{
     text-align: center;
@@ -37,5 +38,6 @@ fieldset{
     margin: 25px auto;
     font-size: 25px;
     line-height: 1.5;
+    background-color: rgb(251, 214, 231);
  
 }
