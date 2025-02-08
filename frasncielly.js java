@@ -1,0 +1,19 @@
+function validar(){
+    let login = document.getElementById('username'). value;
+    let senha = document.getElementById('password'). value;
+
+    let loginValido = /^[13579]{5}$/.test(login);
+    let senhaValido = /^[02468]{4}$/.test(senha);
+
+    if (loginValido && senhaValido){
+        alert('Login e senha Validos!');
+
+    }
+    else{
+        alert('Login ou senha invalidos! Lembre-se  O login deve conter exatamente 5 digitos impares. A senha deve conter exatamente 4 digitos pares. ');
+    }
+
+
+
+
+}
