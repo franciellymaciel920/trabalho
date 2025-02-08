@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+
+}
+button{
+    background-color: rgb(236, 80, 101);
+}
+#secao{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(235, 0, 31);
+    padding: 30px;
+    margin: 12px;
+    border-radius: 50px;
+   
+}
