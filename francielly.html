@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="francielly.css">
+
 
     <title>Login</title>
 </head>
 <body>
-    <header>
+    <section id="secao">
         <br>
         <h1>Crie um Login de acesso</h1>
        <input type="text" id="username" placeholder= "Digite seu login" required>
@@ -17,14 +19,15 @@
        <input type="password" id="password" placeholder= "Digite sua senha" required>
        <br>
        <br>
-       <button>Entrar</button>
+       <button onclick=" validar()">Entrar</button>
+    </section>
 
-       <section>
+       <section  id="secao">
         <h3>ATENÇÃO</h3>
         <p>O login precisa conter apenas 5 digitos com apenas número impares.<br>
 
             A senha precisa ser de apenas 4 digitos com números pares.</p>
-       </section>        
+       </section>   
+       <script src="francielly.js"></script>     
        </body> 
-    </header>
-
+</html>
